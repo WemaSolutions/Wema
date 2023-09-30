@@ -1,0 +1,16 @@
+  {
+    
+    "section": [
+      {
+        "icon": "my-app/public/img/icons/logo192.png",
+        "title": "Sub Title 1",
+        "content": "Sub Content 1"
+      },
+      {
+        "icon": "my-app/public/img/SVG/developer.svg",
+        "title": "Sub Title 2",
+        "content": "Sub Content 2"
+      }
+    ]
+  }
+  

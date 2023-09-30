@@ -1,0 +1,38 @@
+[
+  {
+      "title": "Web Design & Development",
+      "iconSrc": "developer.svg",
+      "description": "In an increasingly digital world, your website is the face of your brand. We specialize in creating visually appealing, user-centric websites that resonate with your audience. Whether you're starting from scratch or refining an existing site, our team ensures a seamless user experience across devices.",
+      "offerings": [
+          "Custom web design tailored to your brand",
+          "Responsive web development",
+          "E-commerce solutions",
+          "CMS customization",
+          "Website maintenance and updates"
+      ]
+  },
+  {
+      "title": "Digital Marketing, Graphics & Branding",
+      "iconSrc": "graphs.svg",
+      "description": "A brand is more than a logo; it's an experience. Through strategic digital marketing campaigns and captivating graphic designs, we amplify your brand's voice. Let us help you connect, engage, and convert your target audience.",
+      "offerings": [
+          "Integrated digital marketing strategy",
+          "Social media campaigns & management",
+          "PPC campaigns",
+          "Custom graphic designs for promotions and ads",
+          "Brand identity and consistency"
+      ]
+  },
+  {
+      "title": "SEO & Maps Engine Optimization",
+      "iconSrc": "product-launch.svg",
+      "description": "Visibility online translates to business opportunities. Our advanced SEO and Google Maps optimization techniques ensure that your business stands out, whether your audience is global or local. Drive organic traffic, enhance local presence, and stay ahead of your competitors.",
+      "offerings": [
+          "On-page and off-page SEO",
+          "Local SEO & Google Maps optimization",
+          "Comprehensive website audits",
+          "Content optimization & keyword research",
+          "Backlink strategies and management"
+      ]
+  }
+]

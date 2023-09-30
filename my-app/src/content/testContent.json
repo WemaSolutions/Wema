@@ -1,0 +1,21 @@
+{
+  "WebDesignDevelopment": {
+    "icon": "/img/svg/app-development.png",
+    "title": "Web Development",
+    "subtitle": "Crafting user-centric websites tailored for your brand's unique digital footprint. Experience responsive designs that captivate & convert.",
+    "button":"Learn More"
+  },
+  "DigitalMarketing": {
+    "icon": "/img/svg/social-media.png",
+    "title": "Digital Marketing",
+    "subtitle": "Harness the power of digital marketing combined with stellar graphics and branding, ensuring your business stands out and resonates.",
+    "button":"Learn More"
+  },
+  "SEO": {
+    "icon": "/img/svg/seo.png",
+    "title": "SEO Optimization",
+    "subtitle": "Optimize your online visibility on goole search engine & maps, and drive organic traffic, ensuring your local customers find you effortlessly on Google Maps.",
+    "button":"Learn More"
+  }
+  
+}
