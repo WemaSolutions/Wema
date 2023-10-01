@@ -6,16 +6,19 @@ export const ServicesBlockWrapper = styled("section")`
   text-align: center;
   display: flex;
   justify-content: center;
-  flex-direction: Column;
+  flex-direction: row;
   @media screen and (max-width: 1024px) {
     padding: 5.5rem 0 3rem;
   }
 `;
 
+export const ExpandableListWrapper = styled("div")`
+  margin-bottom: 20px;
+`;
+
 export const Content = styled("p")`
   padding: 0.75rem 0 0.75rem;
 `;
-
 
 export const MinTitle = styled("p")`
   font-size: 3.5 em;

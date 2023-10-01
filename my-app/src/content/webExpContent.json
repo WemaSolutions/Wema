@@ -1,19 +1,65 @@
 [
-    {
-      "title": "User Experience (UX)",
-      "content": "Ensuring the user journey is intuitive and smooth. Every design choice is validated through rigorous usability testing."
-    },
-    {
-      "title": "Responsive Design",
-      "content": "Catering to a wide range of devices, from desktops to smartphones, ensuring consistent browsing experiences."
-    },
-    {
-      "title": "Custom Solutions",
-      "content": "No two brands are the same. We deliver bespoke designs that resonate with your unique brand message."
-    },
-    {
-      "title": "Optimization & Scalability",
-      "content": " Building websites that are not only fast and SEO-friendly but also capable of growing as your business expands."
-    }
-  ]
-   
+  {
+    "serviceTitle": "Web Design & Development",
+    "content": [
+      {
+        "title": "User Experience (UX)",
+        "content": "Ensuring the user journey is intuitive and smooth. Every design choice is validated through rigorous usability testing."
+      },
+      {
+        "title": "Responsive Design",
+        "content": "Catering to a wide range of devices, from desktops to smartphones, ensuring consistent browsing experiences."
+      },
+      {
+        "title": "Custom Solutions",
+        "content": "No two brands are the same. We deliver bespoke designs that resonate with your unique brand message."
+      },
+      {
+        "title": "Optimization & Scalability",
+        "content": " Building websites that are not only fast and SEO-friendly but also capable of growing as your business expands."
+      }
+    ]
+  },
+  {
+    "serviceTitle": "Digital Marketing, Graphics & Branding",
+    "content": [
+      {
+        "title": "Keyword Research",
+        "content": "Identifying the most relevant keywords for your business to maximize organic traffic."
+      },
+      {
+        "title": "On-Page Optimization",
+        "content": "Tweaking website content and meta tags to enhance search engine visibility."
+      },
+      {
+        "title": "Link Building",
+        "content": "Creating high-quality backlinks to boost your site's authority and rankings."
+      },
+      {
+        "title": "Performance Tracking",
+        "content": "Monitoring website traffic and search rankings to refine SEO strategies over time."
+      }
+    ]
+  },
+  {
+    "serviceTitle": "SEO & Maps Engine Optimization",
+    "content": [
+      {
+        "title": "Keyword Research",
+        "content": "Identifying the most relevant keywords for your business to maximize organic traffic."
+      },
+      {
+        "title": "On-Page Optimization",
+        "content": "Tweaking website content and meta tags to enhance search engine visibility."
+      },
+      {
+        "title": "Link Building",
+        "content": "Creating high-quality backlinks to boost your site's authority and rankings."
+      },
+      {
+        "title": "Performance Tracking",
+        "content": "Monitoring website traffic and search rankings to refine SEO strategies over time."
+      }
+    ]
+  }
+]

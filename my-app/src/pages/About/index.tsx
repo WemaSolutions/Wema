@@ -63,8 +63,6 @@ const Home = () => {
         content={ContactContent.text}
         id="contact"
       />
-
-      <ExpandableList data={webExpContent} />
     </Container>
   );
 };
