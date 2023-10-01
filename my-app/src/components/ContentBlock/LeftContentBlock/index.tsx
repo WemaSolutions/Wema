@@ -2,6 +2,8 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../../common/SvgIcon";
 import { ContentBlockProps } from "../types";
+import { Button } from "../../../common/Button";
+
 import { Fade } from "react-awesome-reveal";
 import {
   LeftContentSection,
@@ -16,6 +18,7 @@ const LeftContentBlock = ({
   icon,
   title,
   content,
+  button,
   section,
   t,
   id,
