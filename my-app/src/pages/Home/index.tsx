@@ -36,28 +36,27 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="graphs.svg"
+        icon="backend.png"
         id="about"
       />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="phone-call.png"
         id="mission"
       />
       <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="developer.svg"
+        icon="development.png"
         id="product"
       />
-
-      <Contact
+      <MiddleBlock
         title={ContactContent.title}
         content={ContactContent.text}
-        id="contact"
+        button={ContactContent.button}
       />
 
       <ExpandableList data={webExpContent} />
