@@ -47,12 +47,12 @@ const Home = () => {
         id="mission"
       />
       <ContentBlock
-        type="left"
+        type="right"
         title={ProductContent.title}
         content={ProductContent.text}
         button={ProductContent.button}
         icon="backend.png"
-        id="product"
+        id="Intro"
       />
       <MiddleBlock
         title={ContactContent.title}

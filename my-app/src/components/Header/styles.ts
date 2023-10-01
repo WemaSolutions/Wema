@@ -3,16 +3,21 @@ import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 
 export const HeaderSection = styled("header")`
-  padding-top: 1rem 0.5rem;
+  padding: 1rem 0.5rem 0;
 
   .ant-row-space-between {
     align-items: center;
     text-align: center;
   }
+
+  @media only screen and (max-width: 411px) {
+    padding-top: 1rem 0.5rem 0;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
   display: flex;
+  padding-top: 10 px;
 `;
 
 export const NavLink = styled("div")`
