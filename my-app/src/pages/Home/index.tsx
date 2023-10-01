@@ -36,7 +36,7 @@ const Home = () => {
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="backend.png"
+        icon="development.png"
         id="about"
       />
       <ContentBlock
@@ -50,7 +50,7 @@ const Home = () => {
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="development.png"
+        icon="backend.png"
         id="product"
       />
       <MiddleBlock
