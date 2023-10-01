@@ -1,15 +1,26 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Our Expertise",
+  "text": "At WEMA Solutions, we pride ourselves on delivering top-notch digital solutions tailored to meet the unique needs of our clients. Our expertise spans across various domains, ensuring comprehensive solutions for your business.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Web Development",
+      "content": "Crafting visually appealing and functional websites that resonate with your audience. From responsive designs to interactive user interfaces, we ensure your website not only looks great but also performs seamlessly.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "SEO Optimization",
+      "content": "Boost your online visibility with our SEO services. We ensure your website ranks higher on search results, driving organic traffic and enhancing brand recognition.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Digital Marketing",
+      "content": "Strategies that drive results. From graphic design to comprehensive branding solutions, we create campaigns that captivate and convert, ensuring your brand stands out in the crowded marketplace.",
+      "icon": "notes.svg"
+    },
+
+    {
+      "title": "Graphic Design & Branding",
+      "content": "Your brand is your identity. Our graphic design and branding services ensure that your brand stands out in the crowded marketplace. From logo design to comprehensive branding solutions, we've got you covered.",
       "icon": "notes.svg"
     }
   ]

@@ -1,6 +1,5 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
-  }
-  
+  "title": "About WEMA",
+  "text": "Founded with a vision to revolutionize the digital realm, WEMA Solutions is committed to delivering excellence in every project. Our team of experts brings together a blend of creativity and technical prowess, ensuring top-notch solutions for our clients.",
+  "button": "About Us"
+}

@@ -26,7 +26,6 @@ const Home = () => {
         icon="waving.svg"
         id="intro"
       />
-      
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
@@ -54,18 +53,16 @@ const Home = () => {
         icon="developer.svg"
         id="product"
       />
+
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
       />
+
       <ExpandableList data={webExpContent} />
-    
     </Container>
   );
 };
-
-
-
 
 export default Home;

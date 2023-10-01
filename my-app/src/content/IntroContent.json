@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Welcome to WEMA Solutions",
+  "text": "Your trusted partner in digital transformation. Dive into a world where creativity meets technology, and ideas come to life",
   "button": [
     {
-      "title": "Explore"
+      "title": "Discover"
     },
     {
-      "title": "Learn more",
+      "title": "Services",
       "color": "#fff"
     }
   ]
