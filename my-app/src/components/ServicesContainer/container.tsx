@@ -5,6 +5,8 @@ import ServicesSection from "../../content/ServicesSection.json";
 import webExpContent from "../../content/webExpContent.json";
 
 const ServicesContainer: React.FC = () => {
+  const icons = ["chat-bot.png", "development.png", "search.png"]; // Make sure these paths are correct
+
   return (
     <div>
       {ServicesSection.map((service, index) => {
@@ -19,7 +21,7 @@ const ServicesContainer: React.FC = () => {
                 type="left"
                 title={service.title}
                 content={service.description}
-                icon="report.png"
+                icon={icons[index]}
                 id={`service-${index}`}
               />
             )}
