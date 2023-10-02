@@ -19,7 +19,7 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <ContentBlock
-        type="right"
+        type="Normal"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
@@ -40,14 +40,14 @@ const Home = () => {
         id="about"
       />
       <ContentBlock
-        type="right"
+        type="left"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="phone-call.png"
         id="mission"
       />
       <ContentBlock
-        type="right"
+        type="Normal"
         title={ProductContent.title}
         content={ProductContent.text}
         button={ProductContent.button}

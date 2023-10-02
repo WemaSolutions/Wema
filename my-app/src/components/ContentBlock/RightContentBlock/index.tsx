@@ -8,7 +8,7 @@ import {
   RightBlockContainer,
   Content,
   ContentWrapper,
-  ButtonWrapper,
+  ButtonContainer,
 } from "./styles";
 
 const RightBlock = ({
@@ -33,6 +33,18 @@ const RightBlock = ({
             <ContentWrapper>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
+              <Col
+                style={{ justifySelf: "center" }}
+                lg={11}
+                md={11}
+                sm={12}
+                xs={24}
+              >
+                <SvgIcon src={icon} width="100%" height="100%" />
+                <ButtonContainer>
+                  <Button name="submit">{t("Submit")}</Button>
+                </ButtonContainer>
+              </Col>
             </ContentWrapper>
           </Col>
           <Col

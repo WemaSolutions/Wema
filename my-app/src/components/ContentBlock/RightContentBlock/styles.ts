@@ -26,16 +26,11 @@ export const ContentWrapper = styled("div")`
   }
 `;
 
-export const ButtonWrapper = styled("div")`
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
+export const ButtonContainer = styled("div")`
+  text-align: end;
+  position: relative;
 
-  @media screen and (min-width: 1024px) {
-    max-width: 80%;
-  }
-
-  button:last-child {
-    margin-left: 20px;
+  @media only screen and (max-width: 414px) {
+    padding-top: 0.75rem;
   }
 `;
