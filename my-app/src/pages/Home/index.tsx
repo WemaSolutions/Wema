@@ -43,7 +43,7 @@ const Home = () => {
         type="left"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="phone-call.png"
+        icon="report.png"
         id="mission"
       />
       <ContentBlock
