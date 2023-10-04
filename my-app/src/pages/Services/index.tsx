@@ -1,17 +1,11 @@
-import React from 'react';
 import { lazy } from "react";
 import ThreeColumnContainer from "../../components/ContentBlock/TwoColumnContainer";
 import HeroComponent from "../../components/ContentBlock/HeroContentBlock";
-import HeroContent from "../../content/HeroContent.json"
+import HeroContent from "../../content/HeroContent.json";
 import ServicesContainer from "../../components/ServicesContainer/container";
 import testContent from "../../content/testContent.json";
 
-
-
-
 const Container = lazy(() => import("../../common/Container"));
-
-
 
 const Services = () => {
   return (
@@ -27,9 +21,8 @@ const Services = () => {
         button={testContent.SEO.button}
       />
       <ServicesContainer />
-      
     </Container>
   );
-}
+};
 
 export default Services;

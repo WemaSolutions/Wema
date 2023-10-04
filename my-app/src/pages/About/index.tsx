@@ -5,8 +5,7 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
-import ExpandableList from "../../components/Expandable List";
-import webExpContent from "../../content/webExpContent.json";
+import SocialMediaAndContact from "../../components/SocialMediaBlock"; // Adjust the path accordingly
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -14,12 +13,12 @@ const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
-const Home = () => {
+const About = () => {
   return (
     <Container>
       <ScrollToTop />
       <ContentBlock
-        type="right"
+        type="left"
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
@@ -31,16 +30,9 @@ const Home = () => {
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       />
+
       <ContentBlock
-        type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="graphs.svg"
-        id="about"
-      />
-      <ContentBlock
-        type="right"
+        type="Normal"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
@@ -63,8 +55,9 @@ const Home = () => {
         content={ContactContent.text}
         id="contact"
       />
+      <SocialMediaAndContact />
     </Container>
   );
 };
 
-export default Home;
+export default About;
