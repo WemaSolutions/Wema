@@ -1,13 +1,8 @@
 import React from "react";
-import { ServicesBlockWrapper } from "../ServicesBlock/styles";
-import {
-  SocialMediaWrapper,
-  Icon,
-  ContactDetailsWrapper,
-  ContactDetail,
-  ContactTitle,
-} from "./styles";
+import { ContentWrapper } from "../ServicesBlock/styles";
+import { SocialMediaWrapper, Icon } from "./styles";
 import content from "../../content/SocialContent.json"; // Adjust the path accordingly
+import { Row, Col } from "antd";
 
 interface SocialMediaIconProps {
   href: string;
@@ -22,34 +17,40 @@ const SocialMediaIcon: React.FC<SocialMediaIconProps> = ({
 }) => {
   return (
     <Icon href={href} target="_blank" rel="noopener noreferrer">
-      <img src={icon} alt={alt} width="24" height="24" />
+      <img
+        src={icon}
+        alt={alt}
+        width="24"
+        height="24"
+        title={`Follow Us On ${alt.replace(" Icon", "")} `}
+      />
     </Icon>
   );
 };
 
 const SocialMediaAndContact: React.FC = () => {
   return (
-    <ServicesBlockWrapper>
-      <SocialMediaWrapper>
-        {content.socialMediaLinks.map((link) => (
-          <SocialMediaIcon
-            key={link.href}
-            href={link.href}
-            icon={link.icon}
-            alt={link.alt}
-          />
-        ))}
-      </SocialMediaWrapper>
-
-      <ContactDetailsWrapper>
-        <ContactTitle>Contact Details</ContactTitle>
-        {content.contactDetails.map((detail) => (
-          <ContactDetail key={detail.type}>
-            {detail.type}: {detail.detail}
-          </ContactDetail>
-        ))}
-      </ContactDetailsWrapper>
-    </ServicesBlockWrapper>
+    <ContentWrapper>
+      <Row justify="center">
+        <Col span={24}>
+          <h4 style={{ textAlign: "center" }}>Follow Us</h4>
+        </Col>
+      </Row>
+      <Row justify="center">
+        <Col>
+          <SocialMediaWrapper>
+            {content.socialMediaLinks.map((link) => (
+              <SocialMediaIcon
+                key={link.href}
+                href={link.href}
+                icon={link.icon}
+                alt={link.alt}
+              />
+            ))}
+          </SocialMediaWrapper>
+        </Col>
+      </Row>
+    </ContentWrapper>
   );
 };
 

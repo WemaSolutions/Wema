@@ -14,16 +14,11 @@
       "href": "https://www.linkedin.com/",
       "icon": "/img/svg/linkedin.svg",
       "alt": "LinkedIn Icon"
-    }
-  ],
-  "contactDetails": [
-    {
-      "type": "Email",
-      "detail": "example@example.com"
     },
     {
-      "type": "Phone",
-      "detail": "+1 (123) 456-7890"
+      "href": "https://www.linkedin.com/",
+      "icon": "/img/svg/linkedin.svg",
+      "alt": "LinkedIn Icon"
     }
   ]
 }
