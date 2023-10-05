@@ -55,7 +55,6 @@ const About = () => {
         content={ContactContent.text}
         id="contact"
       />
-      <SocialMediaAndContact />
     </Container>
   );
 };

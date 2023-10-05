@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const SocialMediaWrapper = styled("div")`
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
+  justify-content: left;
+  align-items: left;
+
+  gap: 50px;
+  margin-bottom: 10px;
 `;
 
 export const Icon = styled("a")`

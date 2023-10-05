@@ -1,3 +1,4 @@
+import React from "react";
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide, Zoom } from "react-awesome-reveal";
@@ -9,17 +10,18 @@ import Block from "../Block";
 import Input from "../../common/Input";
 import TextArea from "../../common/TextArea";
 import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
+import SocialMediaAndContact from "../SocialMediaBlock"; // Make sure to adjust the path
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
   const { values, errors, handleChange, handleSubmit } = useForm(
-    validate
+    validate,
   ) as any;
 
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type];
     return (
       <Zoom direction="left">
-        <Span erros={errors[type]}>{ErrorMessage}</Span>
+        <Span errors={errors[type]}>{ErrorMessage}</Span>
       </Zoom>
     );
   };
@@ -30,8 +32,10 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
         <Col lg={12} md={11} sm={24} xs={24}>
           <Slide direction="left">
             <Block title={title} content={content} />
+            <SocialMediaAndContact />
           </Slide>
         </Col>
+
         <Col lg={12} md={12} sm={24} xs={24}>
           <Slide direction="right">
             <FormGroup autoComplete="off" onSubmit={handleSubmit}>

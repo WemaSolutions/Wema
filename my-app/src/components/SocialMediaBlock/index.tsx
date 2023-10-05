@@ -31,12 +31,12 @@ const SocialMediaIcon: React.FC<SocialMediaIconProps> = ({
 const SocialMediaAndContact: React.FC = () => {
   return (
     <ContentWrapper>
-      <Row justify="center">
+      <Row>
         <Col span={24}>
-          <h4 style={{ textAlign: "center" }}>Follow Us</h4>
+          <h4 style={{ textAlign: "left" }}>Follow Us</h4>
         </Col>
       </Row>
-      <Row justify="center">
+      <Row>
         <Col>
           <SocialMediaWrapper>
             {content.socialMediaLinks.map((link) => (
