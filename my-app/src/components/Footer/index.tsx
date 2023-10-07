@@ -134,13 +134,15 @@ const Footer = ({ t }: any) => {
             style={{ paddingTop: "3rem"}}
             className= "footer-logo"
           >
-            <NavLink to="/">
+            <NavLink to="/"
+             style={{ paddingBottom: "2rem"}}>
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="/../../../../img/svg/favicon.png"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="52px"
+                  height="32px"
+             
                 />
               </LogoContainer>
             </NavLink>
