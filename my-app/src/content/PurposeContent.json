@@ -1,0 +1,22 @@
+{
+  "title": "We’re a Purpose Driven Organisation",
+  "description": "We have vast experience in the public, private, and third sectors. We support organisations to deliver complex programmes, projects, and products that enable them to deliver better services and experiences.",
+  "starItems": [
+    {
+      "icon": "/img/svg/star.png",
+      "text": "Building ambition. Reimagining services and experiences to activate change, applying great minds and creativity to solve complex problems."
+    },
+    {
+      "icon": "/img/svg/star.png",
+      "text": "Positively challenging. Challenge assumptions and find new ways forward to deliver greater outcomes for people, places and the planet."
+    },
+    {
+      "icon": "/img/svg/star.png",
+      "text": "Focused on people. Getting to the heart of peoples real needs to deliver compelling products, services and experiences."
+    },
+    {
+      "icon": "/img/svg/star.png",
+      "text": "Digital transformation. Using the best design, technologies and data to power better outcomes. Basically taking responsibility on your digital side of your business."
+    }
+  ]
+}
