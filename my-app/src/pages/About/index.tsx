@@ -13,6 +13,7 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const ValuesIntroComponent = lazy(
   () => import("../../components/ValuesIntroBlock"),
 );
+const ShowBlock = lazy(() => import("../../components/ShowBlock"));
 const PurposeDrivenComponent = lazy(
   () => import("../../components/PurposeDrivenComponent"),
 );
@@ -33,6 +34,7 @@ const About = () => {
         icon="team-building.png"
         id="intro"
       />
+      <ShowBlock />
       <ContentBlock
         type="left"
         title={ProductContent.title}
