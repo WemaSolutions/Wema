@@ -5,7 +5,7 @@ import ServicesSection from "../../content/ServicesSection.json";
 import webExpContent from "../../content/webExpContent.json";
 
 const ServicesContainer: React.FC = () => {
-  const icons = ["chat-bot.png", "development.png", "search.png"]; // Make sure these paths are correct
+  const icons = ["chat-bot.png", "development.png", "diagram.png"]; // Make sure these paths are correct
 
   return (
     <div>
