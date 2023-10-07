@@ -131,7 +131,8 @@ const Footer = ({ t }: any) => {
           <Row
             justify="space-between"
             align="middle"
-            style={{ paddingTop: "3rem" }}
+            style={{ paddingTop: "3rem"}}
+            className= "footer-logo"
           >
             <NavLink to="/">
               <LogoContainer>
@@ -144,10 +145,7 @@ const Footer = ({ t }: any) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
-              />
+         
               <SocialLink
                 href="https://twitter.com/Adrinlolx"
                 src="twitter.svg"
@@ -158,14 +156,9 @@ const Footer = ({ t }: any) => {
               />
               <SocialLink
                 href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                src="linkedin.svg"
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
-                <img
-                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
-                  alt="Buy me a pizza"
-                />
-              </a>
+         
             </FooterContainer>
           </Row>
         </Container>

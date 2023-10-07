@@ -109,4 +109,10 @@ export const Styles = createGlobalStyle`
     .ant-drawer-content-wrapper {
         width: 300px !important;
     }
+  @media screen and (max-width: 769px) {
+      .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
+}
 `;
