@@ -1,4 +1,5 @@
 import { lazy } from "react";
+
 import ThreeColumnContainer from "../../components/ContentBlock/TwoColumnContainer";
 import HeroComponent from "../../components/ContentBlock/HeroContentBlock";
 import ServicesContainer from "../../components/ServicesContainer/container";
@@ -11,6 +12,7 @@ const FloatBlock = lazy(() => import("../../components/FloatBlock"));
 const Services = () => {
   return (
     <Container>
+      <FloatBlock />
       <HeroComponent />
       <ThreeColumnContainer
         WebDesignDevelopment={testContent.WebDesignDevelopment}
@@ -18,7 +20,7 @@ const Services = () => {
         SEO={testContent.SEO}
         button={testContent.SEO.button}
       />
-      <FloatBlock />
+
       <ContentBlock
         type="left"
         title={FirstAboutContent.title}

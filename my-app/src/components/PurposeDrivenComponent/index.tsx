@@ -1,15 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import purposeContent from "../../content/PurposeContent.json"; // Replace with the actual path to your purposeContent.json file
+import purposeContent from "../../content/PurposeContent.json";
 
 const PurposeContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3rem;
-  background: #e6e6ff;
+  background: linear-gradient(135deg, #e0e0ff, #d1d1eb);
   border-radius: 15px;
   margin: 2rem 0;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
 `;
 
 const PurposeTitle = styled.h2`
@@ -17,17 +18,20 @@ const PurposeTitle = styled.h2`
   color: #2e186a;
   margin-bottom: 2rem;
   text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+
   @media (max-width: 768px) {
     font-size: 32px;
   }
 `;
 
 const PurposeDescription = styled.p`
-  font-size: 20px;
+  font-size: 21px;
   color: #555;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   max-width: 800px;
+  line-height: 1.5;
 `;
 
 const StarContainer = styled.div`
@@ -37,30 +41,28 @@ const StarContainer = styled.div`
   gap: 2rem;
 `;
 
-// ... [Other styled components remain the same]
-
-// ... [Other styled components remain the same]
-
 const StarItem = styled.div`
   display: flex;
   align-items: center;
   gap: 1rem;
-  background: #fff;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  background: #f7f7ff;
+  padding: 1.5rem 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   width: 80%;
   max-width: 600px;
 
   &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
   }
 
   img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     vertical-align: middle;
   }
 
@@ -68,18 +70,17 @@ const StarItem = styled.div`
     font-size: 18px;
     color: #555;
     margin: 0;
+    font-weight: 500;
   }
 
   @media (max-width: 768px) {
-    width: 100%; // Increase the width on mobile devices
+    width: 100%;
 
     p {
-      font-size: 16px; // Decrease the font size on mobile devices
+      font-size: 16px;
     }
   }
 `;
-
-// ... [Rest of the component remains the same]
 
 const PurposeDrivenComponent = () => {
   const { title, description, starItems } = purposeContent;

@@ -6,7 +6,7 @@ const FeatureContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   background: #2e186a;
   border-radius: 20px;
   position: relative;
@@ -19,6 +19,9 @@ const FeatureTitle = styled.h2`
   color: #fff;
   text-align: center;
   z-index: 1;
+  @media only screen and (max-width: 1024px) {
+    font-size: 28px;
+  }
 `;
 
 const FeatureDescription = styled.p`
@@ -28,6 +31,9 @@ const FeatureDescription = styled.p`
   max-width: 800px;
   margin-top: 1rem;
   z-index: 1;
+  @media only screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
 `;
 
 const FloatingElements = styled.div`

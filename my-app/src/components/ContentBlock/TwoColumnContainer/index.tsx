@@ -29,11 +29,7 @@ function ThreeColumnContainer(props: ServiceContentProps) {
           <Button name="submit">{button}</Button>
         </StyledColumn>
         <StyledColumn xs={24} md={8}>
-          <img
-            src={SEO.icon}
-            alt="SEO Icon"
-            
-          />
+          <img src={SEO.icon} alt="SEO Icon" />
           <h2>{SEO.title}</h2>
           <p>{SEO.subtitle}</p>
           <Button name="submit">{button}</Button>

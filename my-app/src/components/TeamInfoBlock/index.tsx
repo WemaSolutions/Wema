@@ -1,42 +1,57 @@
 import React from "react";
 import styled from "styled-components";
 
-const HighlightContainer = styled.div`
+const QuoteContainer = styled.div`
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 2rem;
-  margin: 2rem 0;
-  background-color: #e6e6ff; // A subtle background to differentiate from other sections
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #e6e6ff;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 3rem auto;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 `;
 
-const HighlightTitle = styled.h2`
-  font-size: 34px;
-  margin-bottom: 1.5rem;
+const QuoteText = styled.p`
+  font-size: 24px;
   color: #2e186a;
-`;
-
-const HighlightDescription = styled.p`
-  font-size: 21px;
+  font-style: italic;
   text-align: center;
-  max-width: 850px; // To ensure the text doesn't stretch too wide on larger screens
+  z-index: 2;
 `;
 
-const TeamHighlightComponent = () => {
+const DecorativeCircle = styled.div`
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #dcdcff;
+  opacity: 0.3;
+  z-index: 1;
+
+  &:first-child {
+    top: -20px;
+    left: -20px;
+  }
+
+  &:last-child {
+    bottom: -20px;
+    right: -20px;
+  }
+`;
+
+const FloatingQuote = () => {
   return (
-    <HighlightContainer>
-      <HighlightTitle>Meet the Minds Behind Wema Solutions</HighlightTitle>
-      <HighlightDescription>
-        Our team is a blend of seasoned experts and passionate innovators. With
-        diverse backgrounds and a shared vision, we come together to create
-        digital magic. From developers to designers, each member brings a unique
-        skill set, ensuring that WeMa Solutions remains at the forefront of
-        technological advancements.
-      </HighlightDescription>
-    </HighlightContainer>
+    <QuoteContainer>
+      <DecorativeCircle />
+      <QuoteText>
+        "Innovation is what drives our excellence, leading us to new horizons."
+      </QuoteText>
+      <DecorativeCircle />
+    </QuoteContainer>
   );
 };
 
-export default TeamHighlightComponent;
+export default FloatingQuote;
