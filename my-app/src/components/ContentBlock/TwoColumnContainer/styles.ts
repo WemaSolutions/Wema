@@ -8,7 +8,6 @@ export const Container = styled("section")`
   flex-direction: row;
   max-width: 100%;
   padding-top: 2vw;
-  background: linear-gradient(135deg, #f6f3ec 0%, #e9e9e7 100%);
 `;
 
 export const StyledColumn = styled(Col)`
