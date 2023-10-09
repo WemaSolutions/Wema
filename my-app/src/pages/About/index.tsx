@@ -23,10 +23,35 @@ const TeamHighlightComponent = lazy(
 const TestimonialsComponent = lazy(
   () => import("../../components/ReviewsBlock"),
 );
+const InteractiveBlock = lazy(
+  () => import("../../components/InteractiveBlock"),
+);
+const servicesData = [
+  {
+    name: "Web Development",
+    description: "Building responsive and scalable websites.",
+    color: "#FF5733",
+  },
+  {
+    name: "SEO",
+    description: "Optimizing your online presence.",
+    color: "#5733FF",
+  },
+  {
+    name: "Digital Marketing",
+    description: "Boosting your brand's digital footprint.",
+    color: "#FF33A6",
+  },
+];
+
+const Flip = lazy(() => import("../../components/FlipCard"));
 const About = () => {
   return (
     <Container>
       <ScrollToTop />
+
+      <InteractiveBlock />
+
       <ContentBlock
         type="left"
         title={FirstAboutContent.title}
@@ -34,6 +59,7 @@ const About = () => {
         icon="team-building.png"
         id="intro"
       />
+      <Flip data={servicesData} />
       <ShowBlock />
       <ContentBlock
         type="left"

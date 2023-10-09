@@ -1,6 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
 export const Styles = createGlobalStyle`
+    @keyframes floatEffect {
+      0% {
+            transform: translate(-50%, -50%) translateY(-100px);
+     }
+      100% {
+            transform: translate(-50%, -50%) translateY(-120px);
+     }
+    }
 
     @font-face {
         font-family: "Motiva Sans Light";
