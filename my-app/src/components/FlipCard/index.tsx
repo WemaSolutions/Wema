@@ -37,9 +37,9 @@ const Planet = styled.div<{ color: string }>`
 
   // Adjusting the positioning logic
   top: ${(props) =>
-    `${Math.random() * 50 + 35}%`}; // 35% to 65% of container height
+    `${Math.random() * 70 + 35}%`}; // 35% to 65% of container height
   left: ${(props) =>
-    `${Math.random() * 60 + 35}%`}; // 35% to 65% of container width
+    `${Math.random() * 70 + 45}%`}; // 35% to 65% of container width
 
   transform: translateY(${(props) => `${Math.random() * -50 + 25}px`});
   animation-delay: ${(props) => `${Math.random() * 5}s`};

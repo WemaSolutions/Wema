@@ -50,8 +50,6 @@ const About = () => {
     <Container>
       <ScrollToTop />
 
-      <InteractiveBlock />
-
       <ContentBlock
         type="left"
         title={FirstAboutContent.title}
@@ -59,6 +57,7 @@ const About = () => {
         icon="team-building.png"
         id="intro"
       />
+      <InteractiveBlock />
       <Flip data={servicesData} />
       <ShowBlock />
       <ContentBlock
