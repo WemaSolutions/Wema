@@ -40,6 +40,13 @@ export const LogoContainer = styled(Link)`
     width: 52px;
     height: 32px;
   }
+  @media only screen and (max-width: 768px) {
+    svg {
+      width: 42px;
+      height: 22px;
+    }
+    padding-bottom: 15px;
+  }
 `;
 
 export const NavLink = styled("div")`
