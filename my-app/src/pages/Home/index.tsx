@@ -1,7 +1,6 @@
 import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
-import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
@@ -31,6 +30,7 @@ const Home = () => {
         id="intro"
       />
       <FloatBlock />
+      <HeroComponent />
       <ContentBlock
         type="Normal"
         title={ProductContent.title}
@@ -39,21 +39,12 @@ const Home = () => {
         icon="developer.svg"
         id="Intro"
       />
-      <HeroComponent />
 
       <PurposeDrivenComponent />
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      />
-      <ContentBlock
-        type="left"
-        title={AboutContent.title}
-        content={AboutContent.text}
-        section={AboutContent.section}
-        icon="development.png"
-        id="about"
       />
 
       <TeamHighlightComponent />

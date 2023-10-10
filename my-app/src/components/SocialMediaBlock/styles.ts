@@ -13,19 +13,19 @@ export const Icon = styled("a")`
   display: flex;
   justify-content: center; // Center the img
   align-items: center; // Center the img
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   background: linear-gradient(145deg, #ececec, #f5f5f5); // Glass effect
   box-shadow:
-    6px 6px 12px #d9d9d9,
-    -6px -6px 12px #ffffff; // subtle 3D effect
+    3px 3px 6px #d9d9d9,
+    -3px -3px 6px #ffffff; // subtle 3D effect
   transition:
     filter 0.3s ease,
     transform 0.3s ease; // Added transform to the transition
 
   img {
-    width: 70%; // Reduced to 70% to show the glass effect border more clearly
-    height: 70%; // Reduced to 70%
+    width: 80%; // Reduced to 70% to show the glass effect border more clearly
+    height: 80%; // Reduced to 70%
   }
 
   &:hover {

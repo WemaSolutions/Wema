@@ -2,22 +2,22 @@
   "socialMediaLinks": [
     {
       "href": "https://www.facebook.com/",
-      "icon": "/img/svg/linkedin.svg",
+      "icon": "/img/icons/facebook.png",
       "alt": "Facebook Icon"
     },
     {
       "href": "https://www.twitter.com/",
-      "icon": "/img/svg/linkedin.svg",
+      "icon": "/img/icons/instagram.png",
       "alt": "Twitter Icon"
     },
     {
       "href": "https://www.linkedin.com/",
-      "icon": "/img/svg/linkedin.svg",
+      "icon": "/img/icons/github.png",
       "alt": "LinkedIn Icon"
     },
     {
       "href": "https://www.linkedin.com/",
-      "icon": "/img/svg/linkedin.svg",
+      "icon": "/img/icons/linkedin.png",
       "alt": "LinkedIn Icon"
     }
   ]

@@ -3,6 +3,7 @@ import MiddleAboutContent from "../../content/MiddleAboutContent.json";
 
 import MissionContent from "../../content/MissionContent.json";
 import ThreeColumnContainer from "../../components/ContentBlock/TwoColumnContainer";
+import AboutContent from "../../content/AboutContent.json";
 
 import ServicesContainer from "../../components/ServicesContainer/container";
 import testContent from "../../content/testContent.json";
@@ -14,7 +15,6 @@ const InteractiveBlock = lazy(
   () => import("../../components/InteractiveBlock"),
 );
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
-
 
 const servicesData = [
   {
@@ -38,7 +38,14 @@ const Flip = lazy(() => import("../../components/FlipCard"));
 const Services = () => {
   return (
     <Container>
-     
+      <ContentBlock
+        type="left"
+        title={AboutContent.title}
+        content={AboutContent.text}
+        section={AboutContent.section}
+        icon="development.png"
+        id="about"
+      />
       <MiddleBlock
         title={MiddleAboutContent.title}
         content={MiddleAboutContent.text}

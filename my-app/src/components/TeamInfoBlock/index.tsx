@@ -7,16 +7,30 @@ const QuoteContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background-color: #e6e6ff;
   border-radius: 20px;
   max-width: 800px;
   margin: 3rem auto;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #800080, #0000ff);
+  animation: gradientAnimation 5s infinite;
+  background-size: 200% 100%;
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
 `;
 
 const QuoteText = styled.p`
   font-size: 24px;
-  color: #2e186a;
+  color: #fff;
   font-style: italic;
   text-align: center;
   z-index: 2;
@@ -24,21 +38,42 @@ const QuoteText = styled.p`
 
 const DecorativeCircle = styled.div`
   position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #dcdcff;
-  opacity: 0.3;
-  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 
-  &:first-child {
-    top: -20px;
-    left: -20px;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: float 3s infinite alternate; /* Updated duration */
   }
 
-  &:last-child {
-    bottom: -20px;
-    right: -20px;
+  &::before {
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    left: 10%;
+  }
+
+  &::after {
+    width: 150px;
+    height: 150px;
+    bottom: 10%;
+    right: 10%;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
   }
 `;
 

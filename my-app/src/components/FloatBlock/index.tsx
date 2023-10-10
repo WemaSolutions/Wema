@@ -12,6 +12,21 @@ const FeatureContainer = styled.div`
   position: relative;
   overflow: hidden;
   margin: 3rem 0;
+  background: linear-gradient(to right, #800080, #0000ff);
+  animation: gradientAnimation 5s infinite;
+  background-size: 200% 100%;
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
 `;
 
 const FeatureTitle = styled.h2`
@@ -32,7 +47,7 @@ const FeatureDescription = styled.p`
   margin-top: 1rem;
   z-index: 1;
   @media only screen and (max-width: 1024px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 
@@ -81,7 +96,7 @@ const FloatingFeatureComponent = () => {
   return (
     <FeatureContainer>
       <FloatingElements />
-      <FeatureTitle>Discover Our Latest Feature</FeatureTitle>
+      <FeatureTitle>Discover Our Premium Services</FeatureTitle>
       <FeatureDescription>
         Dive into a world of innovation with our latest offering. Experience
         unmatched efficiency, power, and elegance.

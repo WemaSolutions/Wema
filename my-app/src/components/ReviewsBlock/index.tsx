@@ -7,7 +7,6 @@ const TestimonialsContainer = styled.div`
   align-items: center;
   padding: 3rem;
   margin: 4rem 0;
-  background: #f4f4f9;
   border-radius: 15px;
 `;
 

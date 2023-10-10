@@ -32,6 +32,9 @@ const PurposeDescription = styled.p`
   margin-bottom: 2.5rem;
   max-width: 800px;
   line-height: 1.5;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 const StarContainer = styled.div`
@@ -46,7 +49,7 @@ const StarItem = styled.div`
   align-items: center;
   gap: 1rem;
   background: #f7f7ff;
-  padding: 1.5rem 2.5rem;
+  padding- left: 1.5rem ;
   border-radius: 12px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
   transition:
@@ -77,7 +80,7 @@ const StarItem = styled.div`
     width: 100%;
 
     p {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 `;

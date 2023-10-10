@@ -4,12 +4,28 @@ const ShowcaseContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem;
+  justify-content: center;
+  padding: 2rem 2rem;
   background: #2e186a;
   border-radius: 20px;
-  margin: 3rem 0;
   position: relative;
   overflow: hidden;
+  margin: 3rem 0;
+  background: linear-gradient(to right, #800080, #0000ff);
+  animation: gradientAnimation 5s infinite;
+  background-size: 200% 100%;
+
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
 `;
 
 const ShowcaseTitle = styled.h2`
@@ -42,7 +58,7 @@ const FloatingShapes = styled.div`
     position: absolute;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    animation: float 6s infinite alternate;
+    animation: float 3s infinite alternate; /* Updated duration */
   }
 
   &::before {
@@ -75,9 +91,9 @@ const InteractiveShowcaseComponent = () => {
       <FloatingShapes />
       <ShowcaseTitle>Experience the Future</ShowcaseTitle>
       <ShowcaseDescription>
-        Dive into the next generation of digital solutions with [Your Company
-        Name]. We blend creativity with technology to deliver experiences that
-        captivate, inspire, and convert.
+        Dive into the next generation of digital solutions with WEMA. We blend
+        creativity with technology to deliver experiences that captivate,
+        inspire, and convert.
       </ShowcaseDescription>
     </ShowcaseContainer>
   );
