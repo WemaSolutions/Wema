@@ -2,6 +2,7 @@ import { lazy } from "react";
 import FirstAboutContent from "../../content/FirstAboutContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+
 const ValuesComponent = lazy(() => import("../../components/ValuesBlock"));
 const Contact = lazy(() => import("../../components/ContactForm"));
 

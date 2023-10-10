@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterSection = styled("footer")`
-  background: #2e186a;
   padding: 2.5rem 0;
   color: #fff; // White text for contrast against the dark background
+  background: linear-gradient(to right, #800080, #0000ff);
 `;
 
 export const Title = styled("h4")`

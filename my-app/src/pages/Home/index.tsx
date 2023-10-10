@@ -32,7 +32,7 @@ const Home = () => {
       <FloatBlock />
       <HeroComponent />
       <ContentBlock
-        type="Normal"
+        type="left"
         title={ProductContent.title}
         content={ProductContent.text}
         button={ProductContent.button}
@@ -48,10 +48,11 @@ const Home = () => {
       />
 
       <TeamHighlightComponent />
-      <MiddleBlock
+
+      <Contact
         title={ContactContent.title}
         content={ContactContent.text}
-        button={ContactContent.button}
+        id="contact"
       />
     </Container>
   );
