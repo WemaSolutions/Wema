@@ -15,6 +15,11 @@ export const Icon = styled("a")`
   align-items: center; // Center the img
   width: 48px;
   height: 48px;
+  outline: none;
+  border: none;
+  background: none;
+
+  border-radius: 50%;
   background: linear-gradient(145deg, #ececec, #f5f5f5); // Glass effect
   box-shadow:
     3px 3px 6px #d9d9d9,
@@ -24,8 +29,8 @@ export const Icon = styled("a")`
     transform 0.3s ease; // Added transform to the transition
 
   img {
-    width: 80%; // Reduced to 70% to show the glass effect border more clearly
-    height: 80%; // Reduced to 70%
+    width: 100%; // Reduced to 70% to show the glass effect border more clearly
+    height: 100%; // Reduced to 70%
   }
 
   &:hover {
