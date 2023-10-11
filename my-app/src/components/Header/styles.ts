@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
+import { keyframes } from 'styled-components';
 
 export const HeaderSection = styled("header")`
   padding: 1rem 0.5rem 0;
@@ -30,17 +31,34 @@ export const HeaderSection = styled("header")`
   }
 `;
 
+
+// Define the 360-degree flip animation
+const flip360 = keyframes`
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+`;
+
 export const LogoContainer = styled(Link)`
   display: flex;
   padding: 5px;
   transition: box-shadow 0.3s ease-in-out;
+  
+  // Apply the animation
+  animation: ${flip360} 1s forwards; // 1s duration for the flip
+
   &:hover {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   }
+
   svg {
     width: 52px;
     height: 32px;
   }
+
   @media only screen and (max-width: 768px) {
     svg {
       width: 42px;
@@ -49,6 +67,7 @@ export const LogoContainer = styled(Link)`
     padding-bottom: 15px;
   }
 `;
+
 
 export const NavLink = styled("div")`
   display: inline-block;
