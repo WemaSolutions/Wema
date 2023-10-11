@@ -161,6 +161,10 @@ const Footer = ({ t }: any) => {
                 href="https://medium.com/@lashakakabadze/"
                 src="linkedin.svg"
               />
+              <SocialLink
+                href="https://medium.com/@lashakakabadze/"
+                src="linkedin.svg"
+              />
          
             </FooterContainer>
           </Row>

@@ -7,6 +7,7 @@ export const SocialMediaWrapper = styled("div")`
   gap: 50px;
   margin-bottom: 10px;
   padding: 10px 0; // Added padding for better spacing
+  
 `;
 
 export const Icon = styled("a")`
@@ -18,8 +19,8 @@ export const Icon = styled("a")`
   outline: none;
   border: none;
   background: none;
-
-  border-radius: 50%;
+  
+border-radius: 50%;
   background: linear-gradient(145deg, #ececec, #f5f5f5); // Glass effect
   box-shadow:
     3px 3px 6px #d9d9d9,
