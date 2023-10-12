@@ -104,7 +104,7 @@ export const ServiceButton = styled.button`
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 60px;
   border: 1px solid;
   background: none;
   color: #18216d;
@@ -173,7 +173,7 @@ export const ServiceDetails = styled.div`
   padding: 20px;
   margin-left: 20px;
   border-radius: 15px;
-  background: linear-gradient(120deg, #a052a0, #33ff57);
+  background: linear-gradient(120deg, #3357ff, #33ff57);
 
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
   animation: ${fadeIn} 0.5s forwards;

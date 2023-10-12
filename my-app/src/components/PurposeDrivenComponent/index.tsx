@@ -6,7 +6,7 @@ const PurposeContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
+  padding: 1.5rem;
   background: linear-gradient(135deg, #e0e0ff, #d1d1eb);
   border-radius: 15px;
   margin: 2rem 0;
