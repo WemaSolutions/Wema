@@ -2,7 +2,7 @@
   "services": [
     {
       "title": "Web Development",
-      "description": "Our expert team specializes in crafting user-centric websites tailored to your brand's unique digital footprint. From responsive designs that captivate and convert to seamless user experiences across devices, we create the online face of your business that leaves a lasting impression. Whether you're starting from scratch or refining an existing site, our comprehensive services include custom web design, responsive web development, e-commerce solutions, CMS customization, website maintenance, updates, and AI-powered chatbots.",
+      "description": "Our expert team specializes in crafting websites tailored to your brand's unique digital footprint. From responsive designs that captivate and convert to seamless user experiences across devices, we create the online face of your business that leaves a lasting impression. Whether you're starting from scratch or refining an existing site, our comprehensive services include e-commerce solutions, website maintenance, AI-powered chatbots and more.",
 
       "image": "/img/svg/app-development.png"
     },
@@ -10,7 +10,7 @@
       "title": "Digital Marketing",
       "description": "Elevate your online presence with our strategic digital marketing services. We go beyond the logo to amplify your brand's voice, connect with your target audience, and convert leads into loyal customers. Our services encompass integrated digital marketing strategy, social media campaigns and management, PPC campaigns, custom graphic designs for promotions and ads, and ensuring brand identity and consistency.",
 
-      "image": "/img/svg/growth.png"
+      "image": "/img/svg/social-media.png"
     },
     {
       "title": "SEO Optimization",

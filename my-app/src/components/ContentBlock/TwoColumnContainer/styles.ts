@@ -22,8 +22,9 @@ export const StyledColumn = styled(Col)`
   color: #000;
   font-family: "Motiva Sans Light", sans-serif;
   border-radius: 10px;
-  background: #f6f3ec;
-  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #e0dedb, #f6f3ec, #e0dedb, #f6f3ec);
+
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
   width: 500px;
   padding: 1vw;
   margin-left: 20px;
@@ -44,6 +45,7 @@ export const StyledColumn = styled(Col)`
     background: linear-gradient(45deg, #e0dedb, #f6f3ec, #e0dedb, #f6f3ec);
     transition: opacity 0.3s ease;
     opacity: 0;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
   }
 
   &:hover {

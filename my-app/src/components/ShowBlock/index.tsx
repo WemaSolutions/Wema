@@ -26,6 +26,10 @@ const ShowcaseContainer = styled.div`
       background-position: 100% 0%;
     }
   }
+  @media only screen and (max-width: 1024px) {
+    font-size: 28px;
+    margin: 0rem 0;
+  }
 `;
 
 const ShowcaseTitle = styled.h2`
@@ -34,6 +38,9 @@ const ShowcaseTitle = styled.h2`
   margin-bottom: 2rem;
   text-align: center;
   z-index: 1;
+  @media only screen and (max-width: 1024px) {
+    font-size: 28px;
+  }
 `;
 
 const ShowcaseDescription = styled.p`
@@ -42,6 +49,9 @@ const ShowcaseDescription = styled.p`
   text-align: center;
   max-width: 850px;
   z-index: 1;
+  @media only screen and (max-width: 1024px) {
+    font-size: 18px;
+  }
 `;
 
 const FloatingShapes = styled.div`

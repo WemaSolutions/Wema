@@ -28,13 +28,13 @@ const ServicesSection = () => {
           <ServiceButton
             key={index}
             className={service.title === activeService.title ? "active" : ""}
-            onMouseOver={() => setActiveService(service)} // Change from onClick to onMouseOver
+            onMouseOver={() => setActiveService(service)}
           >
             {service.title}
           </ServiceButton>
         ))}
       </ServiceButtons>
-      <ServiceDetails>
+      <ServiceDetails className={activeService ? "active" : ""}>
         <ServiceImage src={activeService.image} alt={activeService.title} />
         <StyledHeading>{activeService.title}</StyledHeading>
         <StyledParagraph>{activeService.description}</StyledParagraph>
