@@ -7,6 +7,8 @@ import ThreeColumnContainer from "../../components/ContentBlock/TwoColumnContain
 import AboutContent from "../../content/AboutContent.json";
 
 import ServicesContainer from "../../components/ServicesContainer/container";
+import ServicesSection from "../../content/ServicesSection.json";
+import webExpContent from "../../content/webExpContent.json";
 
 import testContent from "../../content/testContent.json";
 import FirstAboutContent from "../../content/FirstAboutContent.json";
@@ -54,7 +56,11 @@ const Services = () => {
         button={MiddleAboutContent.button}
       />
 
-      <ServicesContainer />
+      <ServicesContainer
+        services={ServicesSection}
+        icons={["chat-bot.png", "development.png", "diagram.png"]}
+        webExpContents={webExpContent}
+      />
     </Container>
   );
 };
