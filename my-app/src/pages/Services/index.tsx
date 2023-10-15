@@ -53,28 +53,6 @@ const Services = () => {
         content={MiddleAboutContent.text}
         button={MiddleAboutContent.button}
       />
-      <InteractiveBlock />
-      <Flip data={servicesData} />
-      <ThreeColumnContainer
-        WebDesignDevelopment={testContent.WebDesignDevelopment}
-        DigitalMarketing={testContent.DigitalMarketing}
-        SEO={testContent.SEO}
-        button={testContent.SEO.button}
-      />
-      <ContentBlock
-        type="left"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
-      />
-      <ContentBlock
-        type="left"
-        title={FirstAboutContent.title}
-        content={FirstAboutContent.text}
-        icon="team-building.png"
-        id="intro"
-      />
 
       <ServicesContainer />
     </Container>

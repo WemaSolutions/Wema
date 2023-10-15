@@ -2,8 +2,8 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
-
 import i18n from "i18next";
+
 import {
   FooterSection,
   Title,
@@ -19,6 +19,7 @@ import {
   Label,
   LanguageSwitch,
   LanguageSwitchContainer,
+  SocialLink,
 } from "./styles";
 
 interface SocialLinkProps {
@@ -88,7 +89,7 @@ const Footer = ({ t }: any) => {
               <Para>California</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
-                <Empty />
+              <Empty />
               <Title>{t("Company")}</Title>
               <Large left="true" to="/">
                 {t("About")}
@@ -132,40 +133,36 @@ const Footer = ({ t }: any) => {
           <Row
             justify="space-between"
             align="middle"
-            style={{ paddingTop: "3rem"}}
-            className= "footer-logo"
+            style={{ paddingTop: "3rem" }}
+            className="footer-logo"
           >
-            <NavLink to="/"
-             style={{ paddingBottom: "2rem"}}>
+            <NavLink to="/" style={{ paddingBottom: "2rem" }}>
               <LogoContainer>
                 <SvgIcon
                   src="/../../../../img/svg/favicon.png"
                   aria-label="homepage"
                   width="52px"
                   height="32px"
-             
                 />
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-         
               <SocialLink
                 href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                src="facebook.png"
               />
               <SocialLink
                 href="https://www.linkedin.com/in/lasha-kakabadze/"
-                src="linkedin.svg"
+                src="instagram.png"
               />
               <SocialLink
                 href="https://medium.com/@lashakakabadze/"
-                src="linkedin.svg"
+                src="github.png"
               />
               <SocialLink
                 href="https://medium.com/@lashakakabadze/"
-                src="linkedin.svg"
+                src="linkedin.png"
               />
-         
             </FooterContainer>
           </Row>
         </Container>

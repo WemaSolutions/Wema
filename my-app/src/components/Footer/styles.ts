@@ -193,3 +193,21 @@ export const LanguageSwitchContainer = styled("div")`
   justify-content: space-between;
   width: 85px;
 `;
+
+export const SocialLink = styled.a`
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+
+  transition:
+    background-color 0.3s,
+    box-shadow 0.3s,
+    transform 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  &:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-5px) scale(1.05); // Float above and increase size
+  }
+`;

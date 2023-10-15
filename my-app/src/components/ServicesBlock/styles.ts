@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ServicesBlockWrapper = styled("section")`
   position: relative;
-  padding: 7.5rem 0 3rem;
+  padding: 3rem 0 3rem;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -12,9 +12,7 @@ export const ServicesBlockWrapper = styled("section")`
   }
 `;
 
-export const ExpandableListWrapper = styled("div")`
-  margin-bottom: 20px;
-`;
+export const ExpandableListWrapper = styled("div")``;
 
 export const Content = styled("p")`
   padding: 0.75rem 0 0.75rem;
